@@ -7,6 +7,11 @@ Solve the following problems.
 
 See https://asu-compmethodsphysics-phy494.github.io/ASU-PHY494/2021/02/09/04_Python_4/ for help.
 
+(*Note that the last activity on class inheritance is optional* — you
+don't need the final 10 points to get 100% on this activity even
+though GitHub autograding will still show the tests as failing. Don't
+worry about that: if you have 47 points you have 100%)
+
 ## Modules
 
 ### constants module
@@ -139,7 +144,7 @@ Create a file `ball_oons.py` in which you
    ```python
    print(f"ball at {ball.pos} != balloon at {balloon.pos}")
    ```
-#### Inheritance: Earth is a Sphere
+#### Inheritance: Earth is a Sphere (OPTIONAL)
 
 In file `astronomy.py`, define a class `Planet` that is derived from
 `Sphere` and is instantiated as `Planet(name, pos, mass, radius)`.
