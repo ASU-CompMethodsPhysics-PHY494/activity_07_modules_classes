@@ -90,6 +90,8 @@ solve the following problems:
    print(f"cwd = '{cwd}'")
    ```   
 
+## Objects and Classes
+
 ### String methods
 
 Given the sentence `sentence = "MAY THE FORCE BE WITH YOU!"` in file `problem4.py`
@@ -97,9 +99,9 @@ Given the sentence `sentence = "MAY THE FORCE BE WITH YOU!"` in file `problem4.p
 1. test if it is lower case (assign the boolean value to a variable `all_lower`)
 2. make it lower case (store in `l_sentence`)
 
-## Classes
+### Creating your own classes
 
-### `Sphere` class definition
+#### `Sphere` class definition
 Create a file `bodies.py` that contains the class `Sphere`.
 
 * A `Sphere` instance is initialized with its *position* (Cartesian
@@ -111,7 +113,7 @@ Create a file `bodies.py` that contains the class `Sphere`.
   the sphere by adding the translation vector `t` (tuple with three
   floats) to the current position.
 
-### Instantiation: A ball is a sphere
+#### Instantiation: A ball is a sphere
 
 Create a file `balls.py` in which you
 
@@ -124,7 +126,7 @@ Create a file `balls.py` in which you
 
 After each step, print the position of the ball.
 
-### Independence: A balloon is not a ball
+#### Independence: A balloon is not a ball
 
 Create a file `ball_oons.py` in which you
 
@@ -137,7 +139,7 @@ Create a file `ball_oons.py` in which you
    ```python
    print(f"ball at {ball.pos} != balloon at {balloon.pos}")
    ```
-### Inheritance: Earth is a Sphere
+#### Inheritance: Earth is a Sphere
 
 In file `astronomy.py`, define a class `Planet` that is derived from
 `Sphere` and is instantiated as `Planet(name, pos, mass, radius)`.
