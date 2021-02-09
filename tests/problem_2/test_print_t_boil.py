@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # ASSIGNMENT: Activity 07 (Modules and Classes)
 # PROBLEM NUMBER: 2
 
