@@ -29,7 +29,7 @@ See https://asu-compmethodsphysics-phy494.github.io/ASU-PHY494/2021/02/09/04_Pyt
    
 ### myfuncs module
 
-Use your *myfuncs* module from the last lesson and
+Use your *myfuncs* module from the last lesson in a file `problem2.py` and
 
 1. Compute *Heaviside(n)* for the integers -10 ≤ n ≤ 10, assign the
    list to a variable `y`, and print it with
