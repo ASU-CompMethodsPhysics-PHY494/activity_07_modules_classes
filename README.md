@@ -97,7 +97,7 @@ Given the sentence `sentence = "MAY THE FORCE BE WITH YOU!"` in file `problem4.p
 1. test if it is lower case (assign the boolean value to a variable `all_lower`)
 2. make it lower case (store in `l_sentence`)
 
-### Classes
+## Classes
 
 ### `Sphere` class definition
 Create a file `bodies.py` that contains the class `Sphere`.
