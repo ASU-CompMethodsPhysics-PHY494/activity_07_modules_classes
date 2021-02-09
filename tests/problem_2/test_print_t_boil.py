@@ -16,7 +16,7 @@ def test_python3():
 
 def test_print_t_boil():
     return _test_output(FILENAME,
-                        r"""Water boils at 100.00°C.""",
+                        r"""Water boils at 100.00 C.""",
                         input_values=None,
                         regex=False)
 
