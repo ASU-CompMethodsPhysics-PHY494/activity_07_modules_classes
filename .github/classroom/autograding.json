@@ -1,0 +1,234 @@
+{
+  "tests": [
+    {
+      "name": "Test: Problem 1 / pi",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest --tb=line tests/problem_1/test_pi.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Test: Problem 1 / Planck constant",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest --tb=line tests/problem_1/test_Planck_constant.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Test: Problem 1 / Speed of light in vacuum",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest --tb=line tests/problem_1/test_Speed_of_light_in_vacuum.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Test: Problem 1 / hbar",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest --tb=line tests/problem_1/test_hbar.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Test: Problem 1 / print hbar",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest --tb=short tests/problem_1/test_print_hbar.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test: Problem 2 / Heaviside",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest --tb=line tests/problem_2/test_Heaviside.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Test: Problem 2 / print Heaviside",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest --tb=short tests/problem_2/test_print_Heaviside.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test: Problem 2 / kelvin2celsius",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest --tb=line tests/problem_2/test_kelvin2celsius.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Test: Problem 2 / print t_boil",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest --tb=short tests/problem_2/test_print_t_boil.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test: Problem 3 / sin(tau)",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest --tb=line tests/problem_3/test_sintau.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Test: Problem 3 / Gaussian CDF with erf",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest --tb=line tests/problem_3/test_Gaussian_CDF_with_erf.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 4
+    },
+    {
+      "name": "Test: Problem 3 / probability grade Aplus",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest --tb=short tests/problem_3/test_probability_grade_Aplus.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Test: Problem 3 / getcwd",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest --tb=short tests/problem_3/test_getcwd.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Test: Problem 3 / pwd",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest --tb=short tests/problem_3/test_pwd.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test: Problem 4 / islower",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest --tb=line tests/problem_4/test_islower.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Test: Problem 4 / lower",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest --tb=line tests/problem_4/test_lower.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Test: Problem 4 / sentence",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest --tb=line tests/problem_4/test_sentence.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test: Problem 5 / sphere class",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest --tb=line tests/problem_5/test_sphere_class.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 6
+    },
+    {
+      "name": "Test: Problem 5 / final ball position",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest --tb=line tests/problem_5/test_final_ball_position.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 4
+    },
+    {
+      "name": "Test: Problem 5 / ball volume",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest --tb=line tests/problem_5/test_ball_volume.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Test: Problem 5 / instances independence",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest --tb=short tests/problem_5/test_instances_independence.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 4
+    },
+    {
+      "name": "Test: Problem 5 / density earth",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest --tb=short tests/problem_5/test_density_earth.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 4
+    },
+    {
+      "name": "Test: Problem 5 / planet class",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest --tb=line tests/problem_5/test_planet_class.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 6
+    }
+  ]
+}
